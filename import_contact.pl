@@ -23,19 +23,19 @@ use strict;
 use warnings;
 use DBI;
 
-my $uid="vas325";
+my $uid="abc123";
 
 my $driver   = "Pg"; 
 ### Horde DB
 my $h_database = "horde";
-my $h_dsn = "DBI:$driver:dbname=horde;host=pgpool.vsb.cz;port=5432";
+my $h_dsn = "DBI:$driver:dbname=horde;host=host.com;port=5432";
 my $h_userid = "horde";
-my $h_password = "heslo";
+my $h_password = "pass";
 ### Roundcube DB
 my $r_database = "roundcube";
-my $r_dsn = "DBI:$driver:dbname=roundcube;host=pgpool.vsb.cz;port=5432";
+my $r_dsn = "DBI:$driver:dbname=roundcube;host=host.com;port=5432";
 my $r_userid = "roundcube";
-my $r_password = "Dm4xAs";
+my $r_password = "pass";
 
 ### Open DB Horde
 my $h_dbh = DBI->connect($h_dsn, $h_userid, $h_password, { RaiseError => 1 })
