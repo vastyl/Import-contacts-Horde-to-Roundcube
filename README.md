@@ -1,7 +1,7 @@
-Import-contact-Horde-to-Roundcube
+Import-contacts-Horde-to-Roundcube
 =================================
 
-Very easy script for import Horde contact to Roundcube 1.0
+Very easy script for import Horde contacts to Roundcube 1.0
 
 Copyright (C) 2014  Stanislav Vaštyl (stanislav@vastyl.cz)
 
