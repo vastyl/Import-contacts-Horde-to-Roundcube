@@ -56,7 +56,7 @@ if($h_rv < 0){
 }
 my $i = 1;
 while(my @row = $h_sth->fetchrow_array()) {
-	  print "CONTACT - " .$i."\n"; $i++;
+      print "CONTACT - " .$i."\n"; $i++;
       print "FIRST NAME = ". $row[0] ."\n";
       print "LAST NAME = ". $row[1] ."\n";
       print "EMAIL = ". $row[2] ."\n\n";
